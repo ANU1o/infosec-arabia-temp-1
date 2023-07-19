@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0F082E" />
+    <meta name="theme-color" content="#231273" />
     <title>Infosec Arabia</title>
     <link rel="shortcut icon" href="./images/fav32.png" type="image/x-icon" />
     <link
@@ -32,41 +32,79 @@
           ><img src="./images/logo.png" class="img-fluid" alt="infosec-arabia"
         /></a>
       </div>
+
       <nav class="asidenav animate__animated animate__fadeInRight">
-      <a
-        class="asidenav-link"
-        href="#Home" title="Home"
-        ><i
-          class="fa-solid fa-house"
-        ></i></a>
-      <a
-        class="asidenav-link"
-        href="#Service" title="Services"
-        ><i
-          class="fa-solid fa-toolbox"
-        ></i>
-      </a>
-      <a
-        class="asidenav-link"
-        href="#Career" title="Career"
-        ><i
-          class="fa-solid fa-certificate"
-        ></i>
-      </a>
-      <a
-        class="asidenav-link"
-        href="#Contact" title="Contact"
-        ><i
-          class="fa-solid fa-address-card"
-        ></i>
-      </a>
-      
-      <a
-        class="asidenav-link asidenav-link-alt"
-        href="#utt" title="Up to Top"
-        ><i class="fa-solid fa-chevron-up"></i></a
-      >
-    </nav>
+        <a href="#Home" title="Home"
+          ><button class="asidenav-link">
+            <i class="fa-solid fa-house"></i></button
+        ></a>
+        <a href="#Service" title="Services"
+          ><button class="asidenav-link">
+            <i class="fa-solid fa-toolbox"></i></button
+        ></a>
+        <a href="#Contact" title="Contact"
+          ><button class="asidenav-link">
+            <i class="fa-solid fa-address-card"></i></button
+        ></a>
+
+        <a href="#utt" title="Up to Top"
+          ><button class="asidenav-link asidenav-link-alt">
+            <i class="fa-solid fa-chevron-up"></i></button
+        ></a>
+      </nav>
+      <nav>
+        <div class="expanse-pos">
+          <button
+            class="asidenav-link asidenav-link-expanse"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <i class="fa-solid fa-angles-left"></i>
+          </button>
+        </div>
+        <div
+          class="offcanvas offcanvas-xs offcanvas-end"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn w-100"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#offcanvasResponsive"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-angles-right"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body p-0 asidenav-offcanvas">
+            <a href="#Home" title="Home" class="nav-link text-center"
+              ><button class="asidenav-link">
+                <i class="fa-solid fa-house"></i></button
+              >Home</a
+            >
+            <a href="#Service" title="Services" class="nav-link text-center"
+              ><button class="asidenav-link">
+                <i class="fa-solid fa-toolbox"></i></button
+              >Services</a
+            >
+            <a href="#Contact" title="Contact" class="nav-link text-center"
+              ><button class="asidenav-link">
+                <i class="fa-solid fa-address-card"></i></button
+              >Contact</a
+            >
+
+            <a href="#utt" title="Up to Top" class="nav-link text-center"
+              ><button class="asidenav-link asidenav-link-alt">
+                <i class="fa-solid fa-chevron-up"></i></button
+            ></a>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Main -->
@@ -75,10 +113,14 @@
         class="ia ia-heroheight ia-heroWallpaper shadow p-lg-5 p-3 animate__animated animate__fadeIn justify-content-center"
       >
         <div class="row m-lg-5 p-lg-5 m-sm-0 p-sm-0">
-          <div class="col-lg-4 col-sm-12">
-            <img src="./images/INFOSEC LOGOnew.svg" class="herologocontent animate__animated animate__fadeIn animate__delay-2s" alt="">
+          <div class="col-xl-3 col-lg-4 col-sm-12">
+            <img
+              src="./images/INFOSEC LOGOnew.svg"
+              class="herologocontent animate__animated animate__fadeIn animate__delay-2s"
+              alt=""
+            />
           </div>
-          <div class="col">
+          <div class="col-lg col-xl-7">
             <div class="row">
               <h1
                 class="text-ia-secondary display-3 ia-display animate__animated animate__fadeInUp animate__delay-2s"
@@ -100,7 +142,10 @@
                 you gain more agility, stay secure and drive performance. We
                 help to digitally transform your future.
               </p>
-              <ul type="none" class="text-black fw-semibold mt-2 ps-sm-0 ps-lg-4">
+              <ul
+                type="none"
+                class="text-black fw-semibold mt-2 ps-sm-0 ps-lg-4"
+              >
                 <li
                   class="mb-3 animate__animated animate__fadeInUp animate__delay-5s"
                 >
@@ -136,7 +181,7 @@
       </div>
 
       <div class="container-fluid shadow bg-white p-5" id="Home">
-        <div class="m-5">
+        <div class="m-lg-5 m-sm-3">
           <h1 class="text-center ia-display">
             <i
               class="fa-solid fa-lightbulb fa-5x mb-3 text-ia-secondary animate__animated animate__onScroll"
@@ -145,7 +190,7 @@
             In Our <span class="text-ia-secondary">DNA</span>
           </h1>
           <div
-            class="ms-lg-5 me-lg-5 ps-lg-5 pe-lg-5 ms-sm-2 me-sm-2 ps-sm-2 pe-sm-2"
+            class="ms-lg-5 me-lg-5 ps-lg-5 pe-lg-5 ms-sm-2 me-sm-2 ps-sm-1 pe-sm-1"
           >
             <p
               class="text-ia lead p-lg-5 ms-lg-5 me-lg-5 p-sm-2 ms-sm-2 me-sm-2 fs-6 fw-semibold text-center"
@@ -371,12 +416,12 @@
         </div>
       </div>
 
-      <div class="bg-dark" id="Career">
+      <div class="bg-black" id="Career">
         <div class="container p-5">
           <div class="row">
             <h5 class="text-light h2 col text-center mb-5">Want to Join Us?</h5>
             <button
-              class="btn btn-ia-primary rounded-0"
+              class="btn btn-ia-secondary rounded-0"
               data-bs-toggle="modal"
               data-bs-target="#coj"
             >
@@ -416,56 +461,58 @@
               18th Floor<span class="text-ia-primary fw-bold">,</span> Mirgab
               Kuwait City</a
             >
-            <div
-              class="modal fade"
-              data-bs-backdrop="static"
-              data-bs-keyboard="false"
-              tabindex="-1"
-              aria-labelledby="mapl"
-              aria-hidden="true"
-              id="map"
-            >
-              <div
-                class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
-              >
-                <div class="modal-content bg-shallower text-ia">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5 text-ia-primary" id="mapl">
-                      Our Location
-                    </h1>
-                    <button
-                      type="button"
-                      class="btn text-ia-secondary"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <i class="fa-solid fa-xmark"></i>
-                    </button>
-                  </div>
-                  <div class="modal-body bg-deep">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3477.094361530215!2d47.97751367508307!3d29.367526175271404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf854e50db72d5%3A0x3f886e6da391b9c4!2zQWwgQWRhbGEgVG93ZXIgLSDYqNix2Kwg2KfZhNi52K_Yp9mE2Kk!5e0!3m2!1sen!2skw!4v1689191592125!5m2!1sen!2skw"
-                      height="450"
-                      style="border: 0"
-                      allowfullscreen=""
-                      loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"
-                      class="w-100 rounded"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
           </li>
         </ul>
         <div
           style="display: flex"
-          class="col-lg-6 col-sm-12 p-3 justify-content-end align-items-center"
+          class="col-lg col-sm-12 p-3 justify-content-end align-items-center"
         >
           <img src="./images/logo.png" class="brand-width" alt="" />
         </div>
       </div>
     </footer>
+
+    <!-- Career Modal -->
+    <div
+      class="modal fade"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="mapl"
+      aria-hidden="true"
+      id="map"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content bg-shallower text-ia">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-ia-primary" id="mapl">
+              Our Location
+            </h1>
+            <button
+              type="button"
+              class="btn text-ia-secondary"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <div class="modal-body bg-deep">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3477.094361530215!2d47.97751367508307!3d29.367526175271404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf854e50db72d5%3A0x3f886e6da391b9c4!2zQWwgQWRhbGEgVG93ZXIgLSDYqNix2Kwg2KfZhNi52K_Yp9mE2Kk!5e0!3m2!1sen!2skw!4v1689191592125!5m2!1sen!2skw"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="w-100 rounded"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Intro Modal -->
 
@@ -488,7 +535,9 @@
             <img src="./images/INFOSEC LOGO.svg" class="brand-width" alt="" />
           </div>
           <div class="modal-header">
-            <h1 class="modal-title fs-5 text-ia-secondary" id="Introl">Introduction</h1>
+            <h1 class="modal-title fs-5 text-ia-secondary" id="Introl">
+              Introduction
+            </h1>
             <button
               type="button"
               class="btn text-ia-secondary"
@@ -1009,10 +1058,12 @@
               Post Available
             </h3>
             <div class="list-group">
-              <a href="" class="list-group-item list-group-item-action border-0 disabled "
+              <a
+                href=""
+                class="list-group-item list-group-item-action border-0 disabled"
                 >Nothing at the moment..</a
               >
-            </di>
+            </div>
           </div>
         </div>
       </div>

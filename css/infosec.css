@@ -153,7 +153,7 @@
     background-color: var(--bgDeeper);
     color: var(--secondaryAccent);
     margin: 5vh;
-    padding: 2vh;
+    border: none;
     height: 3rem;
     width: 3rem;
     text-align: center;
@@ -196,15 +196,44 @@
     justify-content: center;
 }
 
+.height100vh{
+    height: 100vh;
+}
+
+.height80vh {
+    height: 80vh;
+}
+
+.height50vh {
+    height: 50vh;
+}
+
+.expanse-pos{
+    display: none;
+    position: fixed;
+    right: 1vh;
+    top:1vh;
+    z-index: 100;
+}
+
+.asidenav-link-expanse{
+    z-index: 100;
+    background-color: transparent !important;
+    color: var(--secondaryAccent);
+    box-shadow: none;
+}
+
+.hidden{
+    display: none;
+}
+
 @media (max-width:991px) {
     .asidenav {
-        right: 0.125vh;
-        justify-content: center;
+        display: none;
     }
 
     .asidenav-link {
         margin: 2vh;
-        padding: 2vh;
     }
 
     .brand-fixed{
@@ -218,18 +247,34 @@
     .ia-heroheight{
         height: 150vh;
     }
-    
+
+    .expanse-pos{
+        display: grid;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .offcanvas-xs{
+        width: 15vh !important;
+    }
+
+    .asidenav-offcanvas {
+        z-index: 100;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+    }
+        
 
     @media (orientation:landscape) {
+        
         .asidenav-link {
             height: 9vh;
             width: 9vh;
             margin-bottom: 3vh;
-        }
-
-        .asidenav-link {
-            margin: 5vh;
-            padding: 2vh;
         }
     }
 }
