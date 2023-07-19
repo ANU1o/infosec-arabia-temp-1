@@ -267,6 +267,10 @@
         align-items: center;
         display: grid;
     }
+
+    .herotextwhite{
+        color:whitesmoke !important;
+    }
         
 
     @media (orientation:landscape) {
