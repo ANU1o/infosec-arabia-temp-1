@@ -36,6 +36,10 @@
   background-color: var(--primaryAccent);
 }
 
+.bg-ia-primary-subtle {
+    background-color: #b1e6e4;
+}
+
 .bg-ia-secondary {
   background-color: var(--secondaryAccent);
 }
@@ -52,11 +56,30 @@
     background-color: #00000090;
 }
 
+.fg-black-75 {
+    color: #00000075;
+}
+
+.fg-black-80 {
+    color: #00000080;
+}
+
+.fg-black-90 {
+    color: #00000090;
+}
+
 .carousel-caption-top{
-        top: 15.25rem;
-        bottom: auto;
+        bottom: 0;
+        top:auto;
         text-align: left;
         padding: 3em;
+        align-items: center;
+        height: 80vh;
+
+}
+
+.img-darken{
+    filter: brightness(30%);
 }
 
 .btn-ia-primary {
@@ -93,6 +116,14 @@
 .btn-ia-deep:hover {
   background-color: var(--bgDeeper);
   color: var(--textColor);
+}
+
+.btn-card-lb{
+    background-color: #f7ffff;
+}
+
+.btn-card-lb:hover{
+    background-color: #e3ddff;
 }
 
 .text-ia {
