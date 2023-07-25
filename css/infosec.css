@@ -40,6 +40,25 @@
   background-color: var(--secondaryAccent);
 }
 
+.bg-black-75{
+    background-color: #00000075;
+}
+
+.bg-black-80{
+    background-color: #00000080;
+}
+
+.bg-black-90 {
+    background-color: #00000090;
+}
+
+.carousel-caption-top{
+        top: 15.25rem;
+        bottom: auto;
+        text-align: left;
+        padding: 3em;
+}
+
 .btn-ia-primary {
   background-color: var(--primaryAccent);
   color: var(--secondaryAccent);
@@ -180,8 +199,8 @@
 
 .asidenav-link:focus {
     transform: scale(1.1);
-    background-color: var(--ColorPrimary);
-    color: var(--bgBodyDark);
+    background-color: var(--secondaryAccent);
+    color: var(--bgDeeper);
 }
 
 .ia-heroWallpaper {
@@ -192,8 +211,13 @@
 }
 
 .ia-heroheight {
-    height: 100vh;
+    height: auto;
+    width: 100%;
     justify-content: center;
+}
+
+.carw{
+    width: 100%;
 }
 
 .height100vh{
@@ -210,24 +234,31 @@
 
 .expanse-pos{
     display: none;
-    position: fixed;
-    right: 1vh;
-    top:1vh;
-    z-index: 100;
+    
 }
 
 .asidenav-link-expanse{
     z-index: 100;
-    background-color: transparent !important;
+    background-color: #fff !important;
     color: var(--secondaryAccent);
     box-shadow: none;
 }
 
 .hidden{
-    display: none;
+    display: flex;
 }
 
+
+
 @media (max-width:991px) {
+    .carousel-caption-top {
+            position: absolute;
+        }
+
+        .ia-heroheight{
+            width: auto;
+        }
+
     .asidenav {
         display: none;
     }
@@ -249,7 +280,11 @@
     }
 
     .expanse-pos{
-        display: grid;
+        display: block;
+        position: fixed;
+        right: 1vh;
+        bottom: 1vh;
+        z-index: 100;
     }
 
     .hidden{
@@ -270,6 +305,14 @@
 
     .herotextwhite{
         color:whitesmoke !important;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .cartop{
+        margin-top: 61.14px;
     }
         
 

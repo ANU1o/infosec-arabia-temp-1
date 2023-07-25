@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#231273" />
     <title>Infosec Arabia</title>
+    <style>
+      .brandPar {
+        max-width: 25vh;
+      }
+      @media (max-width: 991px) {
+        .brandPar {
+          max-width: 15vh;
+        }
+        @media (orientation: landscape) {
+          .brandPar {
+            max-width: 30vh;
+          }
+        }
+      }
+    </style>
     <link rel="shortcut icon" href="./images/fav32.png" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -25,15 +40,52 @@
   <body class="user-select-none" id="utt">
     <!-- Header -->
     <header>
-      <div class="brand-fixed animate__animated animate__fadeInDown">
+      <nav
+        class="navbar navbar-expand bg-white shadow-sm fixed-top p-lg-3 p-sm-2 p-xl-2 p-md-3"
+      >
+        <div class="container-fluid">
+          <a href="#utt" class="navbar-brand"
+            ><img src="./images/INFOSEC-LOGO.png" class="navbar-brand brandPar"
+          /></a>
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#Home" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Service" class="nav-link fw-semibold">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link fw-semibold">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="expanse-pos">
+        <!-- <button
+          class="asidenav-link"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button> -->
+        <a href="#utt">
+          <button class="asidenav-link" type="button">
+            <i class="fa-solid fa-chevron-up"></i>
+          </button>
+        </a>
+      </div>
+      <!-- <div class="brand-fixed animate__animated animate__fadeInDown">
         <a
           class="me-auto animate__animated animate__fadeInDown animate__delay-2s"
           href="#utt"
           ><img src="./images/logo.png" class="img-fluid" alt="infosec-arabia"
         /></a>
-      </div>
+      </div> -->
 
-      <nav class="asidenav animate__animated animate__fadeInRight">
+      <!-- <nav class="asidenav animate__animated animate__fadeInRight">
         <a href="#Home" title="Home"
           ><button class="asidenav-link">
             <i class="fa-solid fa-house"></i></button
@@ -51,19 +103,8 @@
           ><button class="asidenav-link asidenav-link-alt">
             <i class="fa-solid fa-chevron-up"></i></button
         ></a>
-      </nav>
-      <nav>
-        <div class="expanse-pos">
-          <button
-            class="asidenav-link asidenav-link-expanse"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasExample"
-            aria-controls="offcanvasExample"
-          >
-            <i class="fa-solid fa-angles-left"></i>
-          </button>
-        </div>
+      </nav> -->
+      <!-- <nav>
         <div
           class="offcanvas offcanvas-xs offcanvas-end"
           tabindex="-1"
@@ -104,16 +145,235 @@
             ></a>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </header>
 
     <!-- Main -->
     <main>
       <div
-        class="ia ia-heroheight ia-heroWallpaper shadow p-lg-5 p-3 animate__animated animate__fadeIn justify-content-center"
+        id="carouselExample"
+        class="carousel slide cartop carw"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/hero.jpg"
+              class="d-block ia-heroheight"
+              alt="..."
+            />
+            <div
+              class="carousel-caption carousel-caption-top bg-black-90 rounded d-none d-md-block"
+            >
+              <h3
+                class="text-white display-4 ia-display animate__animated animate__fadeInUp animate__delay-2s"
+              >
+                Transform Your Business
+              </h3>
+              <h3
+                class="h2 text-white fw-bold animate__animated animate__fadeInUp animate__delay-3s"
+                id="IAbname"
+              >
+                Stay Ahead with
+                <span class="text-ia-primary arabic fw-bolder">infose</span
+                ><span class="text-ia-primary fw-bolder arabic">عربية</span>
+              </h3>
+              <p
+                class="fw-bold ps-lg-3 pe-lg-5 ps-sm-3 pe-sm-5 text-white mt-3 animate__animated animate__fadeInUp animate__delay-4s"
+              >
+                Our comprehensive suite of solutions and security platforms help
+                you gain more agility, stay secure and drive performance. We
+                help to digitally transform your future.
+              </p>
+              <ul
+                type="none"
+                class="text-white fw-semibold mt-2 ps-sm-0 ps-lg-4"
+              >
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-5s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i
+                  >Information and Cyber Security
+                </li>
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-6s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i
+                  >Infrastructure & Managed Services
+                </li>
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-7s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i>DATA
+                  Protection Specialized in Encryption Technologies
+                </li>
+              </ul>
+              <div class="row">
+                <a
+                  href="#"
+                  class="btn btn-ia-primary border-0 rounded-0 animate__animated animate__fadeInUp animate__delay-8s"
+                  data-bs-toggle="modal"
+                  data-bs-target="#Intro"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/hero2.jpg"
+              class="d-block ia-heroheight"
+              alt="..."
+            />
+            <div
+              class="carousel-caption carousel-caption-top bg-black-90 rounded d-none d-md-block"
+            >
+              <h3
+                class="text-white display-4 ia-display animate__animated animate__fadeInUp animate__delay-2s"
+              >
+                Transform Your Business
+              </h3>
+              <h3
+                class="h2 text-white fw-bold animate__animated animate__fadeInUp animate__delay-3s"
+                id="IAbname"
+              >
+                Stay Ahead with
+                <span class="text-ia-primary arabic fw-bolder">infose</span
+                ><span class="text-ia-primary fw-bolder arabic">عربية</span>
+              </h3>
+              <p
+                class="fw-bold ps-lg-3 pe-lg-5 ps-sm-3 pe-sm-5 text-white mt-3 animate__animated animate__fadeInUp animate__delay-4s"
+              >
+                Our comprehensive suite of solutions and security platforms help
+                you gain more agility, stay secure and drive performance. We
+                help to digitally transform your future.
+              </p>
+              <ul
+                type="none"
+                class="text-white fw-semibold mt-2 ps-sm-0 ps-lg-4"
+              >
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-5s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i
+                  >Information and Cyber Security
+                </li>
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-6s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i
+                  >Infrastructure & Managed Services
+                </li>
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-7s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i>DATA
+                  Protection Specialized in Encryption Technologies
+                </li>
+              </ul>
+              <div class="row">
+                <a
+                  href="#"
+                  class="btn btn-ia-primary border-0 rounded-0 animate__animated animate__fadeInUp animate__delay-8s"
+                  data-bs-toggle="modal"
+                  data-bs-target="#Intro"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./images/hero3.jpg"
+              class="d-block ia-heroheight"
+              alt="..."
+            />
+            <div
+              class="carousel-caption carousel-caption-top bg-black-90 rounded d-none d-md-block"
+            >
+              <h3
+                class="text-white display-4 ia-display animate__animated animate__fadeInUp animate__delay-2s"
+              >
+                Transform Your Business
+              </h3>
+              <h3
+                class="h2 text-white fw-bold animate__animated animate__fadeInUp animate__delay-3s"
+                id="IAbname"
+              >
+                Stay Ahead with
+                <span class="text-ia-primary arabic fw-bolder">infose</span
+                ><span class="text-ia-primary fw-bolder arabic">عربية</span>
+              </h3>
+              <p
+                class="fw-bold ps-lg-3 pe-lg-5 ps-sm-3 pe-sm-5 text-white mt-3 animate__animated animate__fadeInUp animate__delay-4s"
+              >
+                Our comprehensive suite of solutions and security platforms help
+                you gain more agility, stay secure and drive performance. We
+                help to digitally transform your future.
+              </p>
+              <ul
+                type="none"
+                class="text-white fw-semibold mt-2 ps-sm-0 ps-lg-4"
+              >
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-5s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i
+                  >Information and Cyber Security
+                </li>
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-6s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i
+                  >Infrastructure & Managed Services
+                </li>
+                <li
+                  class="mb-3 animate__animated animate__fadeInUp animate__delay-7s herotextwhite"
+                >
+                  <i class="fa-solid fa-lock me-4 text-ia-primary"></i>DATA
+                  Protection Specialized in Encryption Technologies
+                </li>
+              </ul>
+              <div class="row">
+                <a
+                  href="#"
+                  class="btn btn-ia-primary border-0 rounded-0 animate__animated animate__fadeInUp animate__delay-8s"
+                  data-bs-toggle="modal"
+                  data-bs-target="#Intro"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- <div
+        class="ia-heroheight ia-heroWallpaper shadow p-lg-5 p-3 animate__animated animate__fadeIn justify-content-center"
       >
         <div class="row m-lg-5 p-lg-5 m-sm-0 p-sm-0">
-          <div class="col-xl-3 col-lg-4 col-sm-12">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <img
               src="./images/INFOSEC LOGOnew.svg"
               class="herologocontent animate__animated animate__fadeIn animate__delay-2s"
@@ -178,7 +438,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="container-fluid shadow bg-white p-5" id="Home">
         <div class="m-lg-5 m-sm-3">
@@ -257,21 +517,21 @@
                 class="col-lg col-sm-12 card p-lg-5 p-sm-3 shadow border-0 me-3 mb-3"
               >
                 <div class="row">
-                  <div class="col-12 p-2">
+                  <div class="col-xl-3 col-lg-4 col-md-3 col-sm-12">
                     <img src="./images/download.svg" class="w-100" alt="" />
                   </div>
                   <div class="col">
                     <h5 class="text-ia-secondary" style="height: 4em">
                       SD WAN Technologies
                     </h5>
-                    <p class="text-ia" style="height: 10em">
+                    <p class="text-ia">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit
                     </p>
                   </div>
                 </div>
-                <div class="row justify-content-center pb-3">
+                <div class="row p-3 pb-3">
                   <button
-                    class="btn btn-ia-secondary w-75 rounded-0"
+                    class="btn btn-ia-secondary w-100 rounded-0"
                     data-bs-toggle="modal"
                     data-bs-target="#sdwan"
                   >
@@ -283,23 +543,51 @@
                 class="col-lg col-sm-12 card p-lg-5 p-sm-3 shadow border-0 me-3 mb-3"
               >
                 <div class="row">
-                  <div class="col-12 p-2">
+                  <div class="col-xl-3 col-lg-4 col-md-3 col-sm-12">
                     <img src="./images/x.svg" class="w-100" alt="" />
                   </div>
                   <div class="col">
                     <h5 class="text-ia-secondary" style="height: 4em">
                       Infrastructure & Network Solutions
                     </h5>
-                    <p class="text-ia" style="height: 10em">
+                    <p class="text-ia">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit
                     </p>
                   </div>
                 </div>
-                <div class="row justify-content-center pb-3">
+                <div class="row justify-content-center p-3 pb-3">
                   <button
-                    class="btn btn-ia-secondary w-75 rounded-0"
+                    class="btn btn-ia-secondary w-100 rounded-0"
                     data-bs-toggle="modal"
                     data-bs-target="#ins"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-lg col-sm-12 card p-lg-5 p-sm-3 shadow border-0 me-3 mb-3"
+              >
+                <div class="row">
+                  <div class="col-xl-3 col-lg-4 col-md-3 col-sm-12">
+                    <img src="./images/dp.svg" class="w-100" alt="" />
+                  </div>
+                  <div class="col">
+                    <h5 class="text-ia-secondary" style="height: 4em">
+                      Data Protection
+                    </h5>
+                    <p class="text-ia">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                    </p>
+                  </div>
+                </div>
+                <div class="row justify-content-center p-3 pb-3">
+                  <button
+                    class="btn btn-ia-secondary w-100 rounded-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#dp"
                   >
                     Read More
                   </button>
@@ -309,21 +597,21 @@
                 class="col-lg col-sm-12 card p-lg-5 p-sm-3 shadow border-0 me-3 mb-3"
               >
                 <div class="row">
-                  <div class="col-12 p-2">
+                  <div class="col-xl-3 col-lg-4 col-md-3 col-sm-12">
                     <img src="./images/is.svg" class="w-100" alt="" />
                   </div>
                   <div class="col">
                     <h5 class="text-ia-secondary" style="height: 4em">
                       Information Security
                     </h5>
-                    <p class="text-ia" style="height: 10em">
+                    <p class="text-ia">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit
                     </p>
                   </div>
                 </div>
-                <div class="row justify-content-center pb-3">
+                <div class="row justify-content-center p-3 pb-3">
                   <button
-                    class="btn btn-ia-secondary w-75 rounded-0"
+                    class="btn btn-ia-secondary w-100 rounded-0"
                     data-bs-toggle="modal"
                     data-bs-target="#is"
                   >
@@ -337,47 +625,21 @@
                 class="col-lg col-sm-12 card p-lg-5 p-sm-3 shadow border-0 me-3 mb-3"
               >
                 <div class="row">
-                  <div class="col-12 p-2">
-                    <img src="./images/dp.svg" class="w-100" alt="" />
-                  </div>
-                  <div class="col">
-                    <h5 class="text-ia-secondary" style="height: 4em">
-                      Data Protection
-                    </h5>
-                    <p class="text-ia" style="height: 10em">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit
-                    </p>
-                  </div>
-                </div>
-                <div class="row justify-content-center pb-3">
-                  <button
-                    class="btn btn-ia-secondary w-75 rounded-0"
-                    data-bs-toggle="modal"
-                    data-bs-target="#dp"
-                  >
-                    Read More
-                  </button>
-                </div>
-              </div>
-              <div
-                class="col-lg col-sm-12 card p-lg-5 p-sm-3 shadow border-0 me-3 mb-3"
-              >
-                <div class="row">
-                  <div class="col-12 p-2">
+                  <div class="col-xl-3 col-lg-4 col-md-3 col-sm-12">
                     <img src="./images/ca.svg" class="w-100" alt="" />
                   </div>
                   <div class="col">
                     <h5 class="text-ia-secondary" style="height: 4em">
                       Consultancy & Audit Services
                     </h5>
-                    <p class="text-ia" style="height: 10em">
+                    <p class="text-ia">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit
                     </p>
                   </div>
                 </div>
-                <div class="row justify-content-center pb-3">
+                <div class="row justify-content-center p-3 pb-3">
                   <button
-                    class="btn btn-ia-secondary w-75 rounded-0"
+                    class="btn btn-ia-secondary w-100 rounded-0"
                     data-bs-toggle="modal"
                     data-bs-target="#cas"
                   >
@@ -389,21 +651,21 @@
                 class="col-lg col-sm-12 card p-lg-5 p-sm-3 shadow border-0 me-3 mb-3"
               >
                 <div class="row">
-                  <div class="col-12 p-2">
+                  <div class="col-xl-3 col-lg-4 col-md-3 col-sm-12">
                     <img src="./images/cs.svg" class="w-100" alt="" />
                   </div>
                   <div class="col">
                     <h5 class="text-ia-secondary" style="height: 4em">
                       Cloud Services
                     </h5>
-                    <p class="text-ia" style="height: 10em">
+                    <p class="text-ia">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit
                     </p>
                   </div>
                 </div>
-                <div class="row justify-content-center pb-3">
+                <div class="row justify-content-center p-3 pb-3">
                   <button
-                    class="btn btn-ia-secondary w-75 rounded-0"
+                    class="btn btn-ia-secondary w-100 rounded-0"
                     data-bs-toggle="modal"
                     data-bs-target="#cs"
                   >
@@ -532,7 +794,11 @@
           <div
             class="ia-heroWallpaper row justify-content-center align-items-center p-0"
           >
-            <img src="./images/INFOSEC LOGO.svg" class="brand-width" alt="" />
+            <img
+              src="./images/INFOSEC LOGOnew.svg"
+              class="brand-width p-5"
+              alt=""
+            />
           </div>
           <div class="modal-header">
             <h1 class="modal-title fs-5 text-ia-secondary" id="Introl">
