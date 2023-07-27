@@ -276,7 +276,11 @@
 }
 
 .expanse-pos{
-    display: none;
+    display: block;
+        position: fixed;
+        right: 1vh;
+        bottom: 1vh;
+        z-index: 2;
     
 }
 
@@ -320,14 +324,6 @@
 
     .ia-heroheight{
         height: 150vh;
-    }
-
-    .expanse-pos{
-        display: block;
-        position: fixed;
-        right: 1vh;
-        bottom: 1vh;
-        z-index: 100;
     }
 
     .hidden{
