@@ -5,6 +5,7 @@
   --secondaryAccent: #231273;
   --bgDeeper: #F3F5F7;
   --blacklyt:#050505;
+  --blacklyt2: #101010;
   --animate-duration: .5s;
   --animate-delay: .5s;
   --animate-repeat: 1;
@@ -87,6 +88,10 @@
 
 .bg-black-lyt{
     background-color: var(--blacklyt);
+}
+
+.bg-black-lyt2 {
+    background-color: var(--blacklyt2);
 }
 
 .bg-black-20 {
