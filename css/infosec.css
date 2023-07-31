@@ -28,6 +28,17 @@
   background: var(--primaryAccent);
 }
 
+.shadow-inner{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.partner-img{
+    width:auto;
+    max-width: auto;
+    height: 2rem;
+    max-height: max-content;
+}
+
 .center-perfect {
     position: absolute;
     top: 50%;
