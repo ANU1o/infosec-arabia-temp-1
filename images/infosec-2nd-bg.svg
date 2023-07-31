@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1920" height="1080" preserveAspectRatio="none" viewBox="0 0 1920 1080"><g mask="url(&quot;#SvgjsMask1028&quot;)" fill="none"><rect width="1920" height="1080" x="0" y="0" fill="rgba(35, 18, 115, 1)"></rect><path d="M1463.5506536625246 930.195835053565L1319.0628353828097 808.9561600254464 1197.823160354691 953.4439783051613 1342.310978634406 1074.6836533332798z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M1260.604395472117 243.81495781348738L1123.5354886267746 413.0809611261685 1292.8014919394557 550.1498679715108 1429.870398784798 380.88386465882974z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M1219.8235420296537 265.0714945398255L1384.7832298120632 247.73353270579062 1367.4452679780281 82.77384492338123 1202.485580195619 100.1118067574161z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M1339.31 841.93 a222.06 222.06 0 1 0 444.12 0 a222.06 222.06 0 1 0 -444.12 0z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float3"></path><path d="M1506.39 958.07 a331.37 331.37 0 1 0 662.74 0 a331.37 331.37 0 1 0 -662.74 0z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M-2.5594845661948824 40.639369376683376L44.82294041085939 230.67989605934508 234.86346709352108 183.29747108229083 187.48104211646682-6.743055600370894z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M1136.61 212.87 a184.12 184.12 0 1 0 368.24 0 a184.12 184.12 0 1 0 -368.24 0z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float1"></path><path d="M1332.9968150761247 866.9979613366584L1256.2453870580023 630.7813548705919 1020.0287805919359 707.5327828887142 1096.7802086100583 943.7493893547808z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M813.54 181.16 a337.58 337.58 0 1 0 675.16 0 a337.58 337.58 0 1 0 -675.16 0z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float3"></path><path d="M1303.42 732.14 a217.96 217.96 0 1 0 435.92 0 a217.96 217.96 0 1 0 -435.92 0z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M399.39 778.46 a320.7 320.7 0 1 0 641.4 0 a320.7 320.7 0 1 0 -641.4 0z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float1"></path><path d="M372.4005710688037 695.9096049351319L377.7832943434312 1004.2856148075192 686.1593042158185 998.9028915328918 680.776580941191 690.5268816605045z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path><path d="M-37.29 846.25 a281.48 281.48 0 1 0 562.96 0 a281.48 281.48 0 1 0 -562.96 0z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float3"></path><path d="M111.79776208915864 744.5547693267688L334.68116124930094 684.8333425155051 274.9597344380373 461.9499433553628 52.076335277894955 521.6713701666265z" fill="rgba(56, 235, 227, 0.19)" class="triangle-float2"></path></g><defs><mask id="SvgjsMask1028"><rect width="1920" height="1080" fill="#ffffff"></rect></mask><style>
+                @keyframes float1 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-10px, 0)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float1 {
+                    animation: float1 5s infinite;
+                }
+
+                @keyframes float2 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-5px, -5px)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float2 {
+                    animation: float2 4s infinite;
+                }
+
+                @keyframes float3 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(0, -10px)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float3 {
+                    animation: float3 6s infinite;
+                }
+            </style></defs></svg>
