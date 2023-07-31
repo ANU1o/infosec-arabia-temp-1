@@ -28,15 +28,15 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: var(--blacklyt);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primaryAccent);
+background-image: linear-gradient(180deg, var(--primaryAccent) 0%, var(--primaryAccent) 80%,var(--secondaryAccent) 100%);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--secondaryAccent);
+  background: var(--bgDeeper);
 }
 
 .shadow-inner{
