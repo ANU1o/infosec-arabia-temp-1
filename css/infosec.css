@@ -14,6 +14,15 @@
   color: var(--textColor);
 }
 
+html {
+    scroll-snap-type: y proximity;
+}
+
+.sectionsnap {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
 ::-webkit-scrollbar {
   width: 0.5em;
 }
@@ -325,12 +334,22 @@
     width: 100%;
 }
 
-.height100vh{
+.height100vh,.height100vh-md{
     height: 100vh;
 }
 
-.height80vh {
+.height80vh,.height80vh-md {
     height: 80vh;
+}
+
+
+@media screen and (min-width:768px) {
+    .height100vh-md{
+        height: 120vh;
+    }
+    .height80vh-md{
+        height: 100vh;
+    }
 }
 
 .height50vh {
