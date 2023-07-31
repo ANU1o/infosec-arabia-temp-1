@@ -35,12 +35,20 @@
 .partner-img{
     width:auto;
     max-width: auto;
-    height: 2rem;
+    height: 3rem;
     max-height: max-content;
 }
 
 .center-perfect {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+}
+
+.center-perfect-x {
+    position:relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
