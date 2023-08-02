@@ -23,6 +23,22 @@ html {
     scroll-snap-stop: always;
 }
 
+.carousel-indicators button{
+    width: 20px !important;
+    height: 20px !important;
+    background-color:var(--bgDeeper) !important;
+    opacity: 100% !important;
+    border-radius: 100% !important;
+}
+
+.carousel-indicators button.active{
+    background-color: var(--primaryAccent) !important;
+}
+
+.carousel-indicators button:hover{
+    background-color: var(--secondaryAccent) !important;
+}
+
 ::-webkit-scrollbar {
   width: 0.5em;
 }
