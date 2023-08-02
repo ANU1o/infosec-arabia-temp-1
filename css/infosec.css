@@ -18,6 +18,12 @@ html {
     scroll-snap-type: y proximity;
 }
 
+.homebg{
+    background: url("../images/Rect\ Light.svg") no-repeat center center/cover,#0009;
+    background-blend-mode: darken;
+    
+}
+
 .sectionsnap {
     scroll-snap-align: start;
     scroll-snap-stop: always;
@@ -99,16 +105,19 @@ background-image: linear-gradient(180deg, var(--primaryAccent) 0%, var(--primary
 }
 
 .bg-ia-secondary-pattern{
-    background-image: url("../images/bgwall2.jpg");
+    background: url("../images/bgwall2.jpg") no-repeat center center/cover,var(--primaryAccent);
+    background-blend-mode: luminosity;
 }
 
 .bg-ia-secondary-pattern-ani-h1{
-    background-image: url("../images/bgwall3.jpg");
-    object-fit: fill;
+    background: url("../images/bgwall3.jpg")no-repeat center center/cover, var(--primaryAccent);
+    background-blend-mode: luminosity;
 }
 
 .bg-ia-secondary-pattern-h3{
-    background-image: url("../images/bgwall.jpg");
+    background: url("../images/bgwall.jpg")no-repeat center center/cover, var(--primaryAccent);
+    background-blend-mode: luminosity;
+    filter: brightness(50%);
 }
 
 .bg-black-lyt{
@@ -166,8 +175,8 @@ background-image: linear-gradient(180deg, var(--primaryAccent) 0%, var(--primary
 
 }
 
-.img-darken{
-    filter: brightness(30%);
+.img-lighten {
+    filter: brightness(200%);
 }
 
 .btn-ia-primary {
