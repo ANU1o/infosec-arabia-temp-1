@@ -105,17 +105,17 @@ background-image: linear-gradient(180deg, var(--primaryAccent) 0%, var(--primary
 }
 
 .bg-ia-secondary-pattern{
-    background: url("../images/bgwall2.jpg") no-repeat center center/cover,var(--primaryAccent);
+    background: url("../images/bgwall2.jpg") no-repeat center center/cover,linear-gradient(30deg, var(--primaryAccent) 0%, var(--secondaryAccent) 100%);
     background-blend-mode: luminosity;
 }
 
 .bg-ia-secondary-pattern-ani-h1{
-    background: url("../images/bgwall3.jpg")no-repeat center center/cover, var(--primaryAccent);
+    background: url("../images/bgwall3.jpg")no-repeat center center/cover, linear-gradient(30deg, var(--primaryAccent) 0%, var(--secondaryAccent) 100%);
     background-blend-mode: luminosity;
 }
 
 .bg-ia-secondary-pattern-h3{
-    background: url("../images/bgwall.jpg")no-repeat center center/cover, var(--primaryAccent);
+    background: url("../images/bgwall.jpg")no-repeat center center/cover, linear-gradient(30deg, var(--primaryAccent) 0%, var(--secondaryAccent) 100%);
     background-blend-mode: luminosity;
     filter: brightness(50%);
 }
