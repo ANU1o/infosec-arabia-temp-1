@@ -187,7 +187,7 @@ background-image: linear-gradient(180deg, var(--primaryAccent) 0%, var(--primary
 }
 
 .img-lighten {
-    filter: brightness(200%);
+    filter: brightness(150%) contrast(100%);
 }
 
 .btn-ia-primary {
