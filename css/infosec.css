@@ -502,6 +502,14 @@ background-image: linear-gradient(180deg, var(--primaryAccent) 0%, var(--primary
     border: var(--secondaryAccent) solid !important;
 }
 
+.border-black-lyt{
+    border-color: var(--blacklyt)!important;
+}
+
+.border-black-lyt2 {
+    border-color: var(--blacklyt2) !important;
+}
+
 .section-heading {
   text-align: center;
   color: var(--textColor);
