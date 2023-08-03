@@ -24,6 +24,12 @@ html {
     
 }
 
+.partnerbg{
+    background-image: url("../images/Rect\ Light\ inverto.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .sectionsnap {
     scroll-snap-align: start;
     scroll-snap-stop: always;
@@ -95,6 +101,11 @@ background-image: linear-gradient(180deg, var(--primaryAccent) 0%, var(--primary
 .bg-ia-primary {
   background-color: var(--primaryAccent);
 }
+
+.bg-ia-primary-wall{
+    background-image: url("../images/Polygon\ Luminary.svg");
+}
+
 
 .bg-ia-primary-subtle {
     background-color: #b1e6e4;
