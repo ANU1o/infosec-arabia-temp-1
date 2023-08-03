@@ -37,7 +37,12 @@
     <link rel="stylesheet" href="./css/infosec.css" />
     <script src="https://cdn.jsdelivr.net/npm/the-noun-project@2.1.0/nounproject.min.js"></script>
   </head>
-  <body class="user-select-none" id="utt">
+  <body
+    class="user-select-none"
+    id="utt"
+    data-bs-spy="scroll"
+    data-bs-target="#navspy"
+  >
     <!-- Header -->
     <header>
       <nav
@@ -50,7 +55,7 @@
               class="brand-width img-lighten"
           /></a>
 
-          <ul class="navbar-nav ms-auto me-5">
+          <ul class="navbar-nav ms-auto me-5" id="navspy">
             <li class="nav-item" data-bs-dark="true">
               <a href="#Home" class="nav-link fw-semibold">Home</a>
             </li>

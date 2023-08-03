@@ -18,6 +18,10 @@ html {
     scroll-snap-type: y proximity;
 }
 
+.nav-link.active {
+    color: var(--primaryAccent) !important;
+}
+
 .homebg{
     background: url("../images/Rect\ Light.svg") no-repeat center center/cover,#0009;
     background-blend-mode: darken;
