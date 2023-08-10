@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 260.68 44.8">
 	<defs>
-		<style>.c{fill:url(#b);}.d{fill:#fff;}</style>
+		<style>.c{fill:url(#b);}.d{fill:#000;}</style>
 		<linearGradient id="b" x1="3.2" y1="21.6" x2="68" y2="21.6" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#4b00ff"/>
 			<stop offset="1" stop-color="#ed4137"/>
