@@ -119,11 +119,11 @@ background-color:var(--secondaryAccent)
 }
 
 .bg-ia-secondary-pattern{
-    background: url("../images/bgwall2.jpg") no-repeat center center/cover;
+    background: url("../images/bgwall2.png") no-repeat center center/cover;
 }
 
 .bg-ia-secondary-pattern-ani-h1{
-    background: url("../images/bgwall2.png")no-repeat center center/cover
+    background: url("../images/bgwallh1.png")no-repeat center center/cover
 }
 
 .bg-ia-secondary-pattern-h3{
@@ -253,11 +253,11 @@ background-color:var(--secondaryAccent)
 }
 
 .text-c1{
-    color: #74727f;
+    color: #c60023;
 }
 
 .text-c1-body{
-    color: #524f4a;
+    color: #122a42;
 }
 
 .text-c2{
@@ -328,14 +328,14 @@ h3.text-c4 {
 }
 
 .btn-c1 {
-    background-color: #524f4a;
+    background-color: #c60023;
     border-color: none;
     color: #fff;
 }
 
 .btn-c1:hover {
     color: #fff;
-    background-color: #74727f;
+    background-color: #122a42;
 }
 
 .btn-c2{
