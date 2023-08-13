@@ -27,10 +27,19 @@ html {
     
 }
 
+.partcol
+{width: 22%}
+
+@media screen and (max-width:625px) {
+    .partcol{
+        width:100%
+    }
+}
+
 .partnerbg{
     background-image: url("../images/Rect\ Light\ inverto.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 }
 
 .sectionsnap {
@@ -461,10 +470,12 @@ h3.text-c4 {
 
 .height100vh,.height100vh-md{
     height: 100vh;
+    overflow: auto;
 }
 
 .height80vh,.height80vh-md {
     height: 80vh;
+    overflow: scroll;
 }
 
 
@@ -475,6 +486,12 @@ h3.text-c4 {
     .height80vh-md{
         height: 100vh;
     }
+
+    .carousel-caption-top{
+        overflow-y:visible;
+        font-size: small !important;
+    }
+    
 }
 
 .height50vh {
