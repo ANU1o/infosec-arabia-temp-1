@@ -116,6 +116,9 @@ background-color:var(--secondaryAccent)
 
 .bg-ia-primary-wall{
     background-image: url("../images/serbg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
 }
 
 
@@ -270,15 +273,19 @@ background-color:var(--secondaryAccent)
 }
 
 .text-c2{
-    color: #dd4d72;
+    color: #006cc4;
+}
+
+.text-c2-body{
+    color: #001d7d;
 }
 
 .text-c3{
-    color: #d84453;
+    color: #008188;
 }
 
 .text-c3-body {
-    color: #670663;
+    color: #1a2e35;
 }
 
 p.text-c4{
@@ -348,25 +355,25 @@ h3.text-c4 {
 }
 
 .btn-c2{
-    background-color: #fe7e73;
+    background-color: #35bbfb;
     border-color: none;
-    color: var(--secondaryAccent);
+    color: #001d7d;
 }
 
 .btn-c2:hover{
-    color: #fe7e73;
-    background-color: var(--secondaryAccent);
+    color: #35bbfb;
+    background-color: #001d7d;
 }
 
 .btn-c3 {
-    background-color: #ffb53c;
+    background-color: #00dfc0;
     border-color: none;
-    color: #670663;
+    color: #1a2e35;
 }
 
 .btn-c3:hover {
-    color: #ffb53c;
-    background-color: #670663;
+    color: #1a2e35;
+    background-color: #008188;
 }
 
 .btn-c4 {
