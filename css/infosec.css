@@ -434,6 +434,10 @@ background-color:var(--secondaryAccent);
         color:#c60023 !important;
         font-weight: bold;
     }
+
+    footer .container .row div img{
+        padding-left:30%; padding-right:30%;
+    }
 }
 
 .img-lighten {
