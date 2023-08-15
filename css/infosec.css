@@ -23,7 +23,7 @@ html {
 }
 
 .homebg{
-    background: url("../images/Rect\ Light.png") no-repeat center center/cover,#0009;
+    background: url("../images/homebguno.svg") no-repeat center center/cover,#0009;
     
 }
 
@@ -184,9 +184,9 @@ html {
 }
 
 .partnerbg{
-    background-image: url("../images/Rect\ Light\ inverto.svg");
+    background-image: url("../images/Rect\ Light.svg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: 65% 50%;
 }
 
 .sectionsnap {
@@ -288,9 +288,9 @@ background-color:var(--secondaryAccent);
 }
 
 .bg-ia-primary-wall{
-    background-image: url("../images/serbg.png");
+    background-image: url("../images/servbg.svg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     
 }
 
@@ -379,6 +379,10 @@ background-color:var(--secondaryAccent);
 }
 
 @media (max-width:616px){
+    .partnerbg{
+        background-position: 55% 50%;
+    }
+
     .bg-ia-secondary-pattern{
         background-position: 80% 300px;
     }
