@@ -69,10 +69,23 @@ html {
 
 ::-webkit-scrollbar-track {
   background: var(--deeper);
+  
 }
 
 ::-webkit-scrollbar-thumb {
-background-color:var(--secondaryAccent)
+background-color:var(--secondaryAccent);
+}
+
+@media (max-width:616px) {
+::-webkit-scrollbar-thumb
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.partcont {
+    height: 100vh;
+    overflow-y: scroll
+}
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -82,6 +95,8 @@ background-color:var(--secondaryAccent)
 .shadow-inner{
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
+
+
 
 .partner-img{
     width:auto;
