@@ -86,6 +86,7 @@ background-color:var(--secondaryAccent);
     height: 100vh;
     overflow-y: scroll
 }
+
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -120,6 +121,16 @@ background-color:var(--secondaryAccent);
     transform: translate(-50%, -50%);
     padding: 3px;
 }
+
+.bg-s1{
+    background-color: #ebebeb;
+}
+
+.bg-s2 {background-color: #d1eefc;}
+
+.bg-s3 {background-color: #c5fff7;}
+
+.bg-s4 {background-color: #e7eff8;}
 
 .bg-deeper {
   background-color: var(--bgDeeper);
@@ -214,6 +225,63 @@ background-color:var(--secondaryAccent);
         align-items: center;
         height: 75vh;
 
+}
+
+.wp-auto{
+    width: 45vw;
+}
+
+@media (max-width:616px){
+    .bg-ia-secondary-pattern{
+        background-position: 80% 300px;
+    }
+
+    .bg-ia-secondary-pattern-ani-h1 {
+        background-position: 77% 150px;
+    }
+
+    .bg-ia-secondary-pattern-h3 {
+        background-position: 77% 150px;
+    }
+
+    .bg-ia-secondary-pattern-h4 {
+        background-position: 77% 150px;
+    }
+
+    .carousel-caption-top {
+            padding: none;
+            top: 0;
+            bottom: auto;
+            left:auto;
+            right: auto;
+            text-align: center;
+    }
+
+    .carousel-caption-top .fs-5{
+        font-size: small !important;
+    }
+
+    .wp-auto {
+        width: auto;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .carousel-caption-top .ps-4{
+        padding-left: 0 !important;
+    }
+
+    .carousel-caption-top .w-50{
+        width: auto !important;
+    }
+
+    .carousel-caption-top .ps-4 .w-25{
+        width: 100% !important;
+    }
+
+    ul.text-c1-body li i{display:none;}
 }
 
 .img-lighten {
@@ -509,10 +577,7 @@ h3.text-c4 {
         height: 100vh;
     }
 
-    .carousel-caption-top{
-        overflow-y:visible;
-        font-size: small !important;
-    }
+   
     
 }
 
@@ -543,9 +608,6 @@ h3.text-c4 {
 
 
 @media (max-width:991px) {
-    .carousel-caption-top {
-            position: absolute;
-        }
 
         .ia-heroheight{
             width: auto;
