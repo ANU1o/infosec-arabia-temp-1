@@ -429,6 +429,11 @@ background-color:var(--secondaryAccent);
     }
 
     ul.text-c1-body li i{display:none;}
+
+    ul.text-c1-body li{
+        color:#c60023 !important;
+        font-weight: bold;
+    }
 }
 
 .img-lighten {
