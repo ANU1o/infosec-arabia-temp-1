@@ -687,8 +687,8 @@ h3.text-c4 {
 
 .asidenav-link:focus {
     transform: scale(1.1);
-    background-color: var(--blacklyt);
-    color: var(--primaryAccent);
+    background-color: var(--primaryAccent);
+    color: var(--secondaryAccent);
 }
 
 .ia-heroWallpaper {
