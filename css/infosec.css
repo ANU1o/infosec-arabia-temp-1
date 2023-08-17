@@ -166,11 +166,6 @@ html {
     background-position: 65% 50%;
 }
 
-.sectionsnap {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-}
-
 .carousel-indicators button{
     width: 20px !important;
     height: 20px !important;
@@ -264,12 +259,6 @@ background-color:var(--secondaryAccent);
   background-color: var(--primaryAccent);
 }
 
-.bg-ia-primary-wall{
-    background-image: url("../images/servbg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
 
 
 .bg-ia-primary-subtle {
@@ -375,11 +364,6 @@ background-color:var(--secondaryAccent);
     .bg-ia-secondary-pattern-h4 {
         background-position: 77% 150px;
     }
-
-        .sectionsnap {
-            scroll-snap-align:unset;
-            scroll-snap-stop:unset;
-        }
 
     .carousel-caption-top {
             padding: none;
