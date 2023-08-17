@@ -179,7 +179,10 @@ html {
 }
 
 .partcol
-{width: 22%}
+{
+    width: 22%;
+    align-self: center;
+}
 
 @media screen and (max-width:625px) {
     .partcol{
