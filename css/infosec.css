@@ -31,6 +31,14 @@ html {
     
 }
 
+.introimg{
+    background-image: url("../images/noun-intellect-5848959.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px; width: 100%;
+}
+
 /* Card Content */
 .card {
     overflow: visible;
