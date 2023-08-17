@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=IBM+Plex+Mono&family=Staatliches&display=swap");
 
+/* *{
+    outline: solid red;
+} */
+
 :root {
   --primaryAccent: #38ebe3;
   --secondaryAccent: #231273;
