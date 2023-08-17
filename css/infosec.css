@@ -399,6 +399,11 @@ background-color:var(--secondaryAccent);
         background-position: 77% 150px;
     }
 
+        .sectionsnap {
+            scroll-snap-align:unset;
+            scroll-snap-stop:unset;
+        }
+
     .carousel-caption-top {
             padding: none;
             top: 0;
@@ -441,6 +446,7 @@ background-color:var(--secondaryAccent);
 
     footer .container .row div img{
         padding-left:30%; padding-right:30%;
+        margin-bottom: 2em;
     }
 }
 
