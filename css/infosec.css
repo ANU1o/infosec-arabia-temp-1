@@ -196,11 +196,7 @@ background-color:var(--secondaryAccent);
 }
 
 @media (max-width:616px) {
-::-webkit-scrollbar-thumb
-{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+
 .partcont {
     height: 100vh;
     overflow-y: scroll
