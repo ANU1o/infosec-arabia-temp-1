@@ -435,8 +435,8 @@ background-color:var(--secondaryAccent);
 }
 
 .btn-ia-primary:hover {
-    box-shadow: inset 100em 0 0 0 #fff;
-    color: var(--secondaryAccent);
+    box-shadow: inset 100em 0 0 0 var(--secondaryAccent);
+    color: var(--bgDeeper);
 }
 
 .btn-ia-primary-grad:hover {
@@ -469,7 +469,7 @@ background-color:var(--secondaryAccent);
 }
 
 .btn-ia-secondary:hover {
-  background-color: var(--bgDeeper);
+  background-color: var(--primaryAccent);
   color: var(--secondaryAccent);
 }
 
