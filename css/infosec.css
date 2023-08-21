@@ -22,8 +22,13 @@ html {
     scroll-snap-type: y proximity;
 }
 
-.nav-link.active {
+.nav-link:hover{
     color: var(--primaryAccent) !important;
+}
+
+.nav-link.active {
+    color: var(--bgDeeper) !important;
+    background-color: var(--secondaryAccent) !important;
 }
 
 .homebg{
