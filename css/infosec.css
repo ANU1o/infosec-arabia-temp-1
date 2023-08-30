@@ -211,6 +211,7 @@ background-color:var(--secondaryAccent);
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primaryAccent);
+  
 }
 
 .shadow-inner{
